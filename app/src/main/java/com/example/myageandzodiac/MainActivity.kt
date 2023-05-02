@@ -46,11 +46,11 @@ class MainActivity : AppCompatActivity() {
 
             val zodiac = when {
                 (monthOfYear+1 == 1 && dayOfMonth >= 20 || monthOfYear+1 == 2 && dayOfMonth <= 19)
-                -> "Aquaris"
+                -> "Aquarius"
                 (monthOfYear+1 == 2 && dayOfMonth >= 20 || monthOfYear+1 == 3 && dayOfMonth <= 20)
                 -> "Pisces"
                 (monthOfYear+1 == 12 && dayOfMonth >= 22 || monthOfYear+1 == 1 && dayOfMonth <= 19)
-                -> "Capricon"
+                -> "Capricorn"
                 (monthOfYear+1 == 11 && dayOfMonth >= 23 || monthOfYear+1 == 12 && dayOfMonth <= 21)
                 -> "Sagittarius"
                 (monthOfYear+1 == 10 && dayOfMonth >= 23 || monthOfYear+1 == 11 && dayOfMonth <= 22)
@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
                 (monthOfYear+1 == 9 && dayOfMonth >= 23 || monthOfYear+1 == 10 && dayOfMonth <= 22)
                 -> "Libra"
                 (monthOfYear+1 == 8 && dayOfMonth >= 23 || monthOfYear+1 == 9 && dayOfMonth <= 22)
-                -> "virgo"
+                -> "Virgo"
                 (monthOfYear+1 == 7 && dayOfMonth >= 23 || monthOfYear+1 == 8 && dayOfMonth <= 22)
                 -> "Leo"
                 (monthOfYear+1 == 6 && dayOfMonth >= 21 || monthOfYear+1 == 7 && dayOfMonth <= 22)
